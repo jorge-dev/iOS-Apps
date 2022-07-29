@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3026DD8728948F14005E5D7E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026DD8628948F14005E5D7E /* Environment.swift */; };
 		30E8BD9B287B848B0062715C /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E8BD9A287B848B0062715C /* WeatherManager.swift */; };
 		30E8BD9D287B939B0062715C /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E8BD9C287B939B0062715C /* WeatherData.swift */; };
 		30E8BD9F287B9A2B0062715C /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E8BD9E287B9A2B0062715C /* WeatherModel.swift */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3026DD8528948A58005E5D7E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		3026DD8628948F14005E5D7E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		30E8BD9A287B848B0062715C /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		30E8BD9C287B939B0062715C /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		30E8BD9E287B9A2B0062715C /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
@@ -48,6 +51,8 @@
 		ADAA27A4231BBFAF00365194 = {
 			isa = PBXGroup;
 			children = (
+				3026DD8628948F14005E5D7E /* Environment.swift */,
+				3026DD8528948A58005E5D7E /* Config.xcconfig */,
 				ADAA27CD231BC87F00365194 /* README.md */,
 				ADAA27AF231BBFAF00365194 /* Clima */,
 				ADAA27AE231BBFAF00365194 /* Products */,
@@ -178,6 +183,7 @@
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
 				30E8BD9D287B939B0062715C /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
+				3026DD8728948F14005E5D7E /* Environment.swift in Sources */,
 				30E8BD9B287B848B0062715C /* WeatherManager.swift in Sources */,
 				30E8BD9F287B9A2B0062715C /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
@@ -208,6 +214,7 @@
 /* Begin XCBuildConfiguration section */
 		ADAA27BF231BBFB300365194 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3026DD8528948A58005E5D7E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -269,6 +276,7 @@
 		};
 		ADAA27C0231BBFB300365194 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3026DD8528948A58005E5D7E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
